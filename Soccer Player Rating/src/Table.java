@@ -10,6 +10,7 @@ public class Table extends JFrame {
     public Table() throws FileNotFoundException {
         super("JTable Demo");
         String[] names = { "Date", "Player Name", "Position", "Minutes Played", "Player Rating" };
+        //Change file path
         Object[][] data = toArr(new File("C:\\Users\\Kevin\\eclipse-workspace\\IA\\playerList.txt"));
         table = new JTable(data, names);
         table.setPreferredScrollableViewportSize(new Dimension(500, 300));
