@@ -1,4 +1,6 @@
-# Soccer-Player-Rating-Project
+# Soccer Player Rating Project
+
+Description: A Java Swing-based user interface that allows users to input player stats, calculates the player rating based on these stats, and stores the player rating in a table that users can access
 
 Design Overview:
 https://pdf.ac/1MlelO
